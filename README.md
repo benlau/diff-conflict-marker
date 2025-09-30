@@ -1,6 +1,6 @@
 **Diff Conflict Marker** is a command-line tool that adds merge-conflict markers to a file based on the `diff` between the file and its version in the Git repository. This simplifies line-by-line inspection and review of changes.
 
-- [ ] Screenshot
+![screenshot](docs/images/screenshot01.jpg)
 
 ### Background
 
@@ -34,7 +34,7 @@ diff-conflict-marker README.md
 
 Opening the file in VS Code (or any VS Code-powered IDE) will display the AI's edits alongside the original content, formatted as merge-conflict markers. This provides a clear, line-by-line comparison, so you can confidently choose the correct version.
 
-- [ ] Screenshot
+![screenshot](docs/images/screenshot01.jpg)
 
 ### Gemini CLI
 

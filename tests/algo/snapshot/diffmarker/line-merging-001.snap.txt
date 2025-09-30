@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DiffMarker snapshot tests should handle line-merging-001 snapshot test 1`] = `
+"orig1
+<<<<<<<
+orig2
+orig3
+=======
+orig2 orig3
+>>>>>>>
+orig4
+<<<<<<<
+orig5
+=======
+new5
+>>>>>>>
+orig6
+<<<<<<<
+orig7
+=======
+new7
+>>>>>>>"
+`;

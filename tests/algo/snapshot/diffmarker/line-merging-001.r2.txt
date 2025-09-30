@@ -1,0 +1,6 @@
+orig1
+orig2 orig3
+orig4
+new5
+orig6
+new7

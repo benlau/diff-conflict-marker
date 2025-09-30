@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DiffMarker snapshot tests should handle complex-001 snapshot test 1`] = `
+"=== Example 1 ===
+
+1
+<<<<<<<
+2
+=======
+ a
+ b
+>>>>>>>
+3
+<<<<<<<
+4
+5
+=======
+ c
+>>>>>>>
+6
+7
+8
+
+
+=== End ===
+"
+`;

@@ -1,0 +1,40 @@
+{
+  "name": "diff-conflict-marker",
+  "version": "0.1.0",
+  "description": "diff-conflict-marker is a command-line tool that reads the saved file state from `.git` and converts the `diff` into a merge-conflict marker format. This enables easier line-by-line inspection and review of changes.",
+  "main": "out/index.js",
+  "bin": {
+    "diff-conflict-marker": "out/src/cli.js"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "lint": "eslint src --ext ts",
+    "test": "jest",
+    "format": "prettier --write '**/*.{js,ts,tsx}'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^14.0.0",
+    "fast-array-diff": "^1.1.0",
+    "isomorphic-git": "^1.33.1",
+    "node-diff3": "^3.1.2"
+  },
+  "devDependencies": {
+    "@types/diff": "^8.0.0",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.3.1",
+    "@typescript-eslint/eslint-plugin": "^8.42.0",
+    "@typescript-eslint/parser": "^8.42.0",
+    "dedent": "^1.7.0",
+    "eslint": "^9.35.0",
+    "jest": "^30.1.3",
+    "jest-specific-snapshot": "^8.0.0",
+    "prettier": "^3.6.2",
+    "ts-jest": "^29.4.1",
+    "typescript": "^5.9.2"
+  }
+}

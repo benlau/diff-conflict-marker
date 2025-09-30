@@ -13,7 +13,7 @@ const merger = new ThreeWayMerger();
 const diffMarker = new DiffMarker(merger);
 
 program
-  .version("0.1.0")
+  .version("0.1.1")
   .description("A tool to diff a file and create merge conflict markers")
   .arguments("<file>")
   .option("-o, --orig <original_file>", "The original file to compare against")

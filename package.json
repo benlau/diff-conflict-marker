@@ -1,6 +1,6 @@
 {
   "name": "diff-conflict-marker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "diff-conflict-marker is a command-line tool that reads the saved file state from `.git` and converts the `diff` into a merge-conflict marker format. This enables easier line-by-line inspection and review of changes.",
   "main": "out/index.js",
   "bin": {
@@ -16,7 +16,7 @@
     "format": "prettier --write '**/*.{js,ts,tsx}'"
   },
   "author": "",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "dependencies": {
     "commander": "^14.0.0",
     "fast-array-diff": "^1.1.0",

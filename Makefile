@@ -18,3 +18,6 @@ test-watch:
 
 lint:
 	npm run lint
+
+clean-node-modules:
+	rm -rf node_modules

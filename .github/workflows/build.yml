@@ -35,12 +35,21 @@ jobs:
     - name: Build project
       run: npm run build
 
+    - name: Clean node_modules
+      run: make clean-node-modules
+
+    - name: Install production dependencies
+      run: npm install --production
+
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: jpl
+        name: npm-package
         path: |
           package.json
+          node_modules
           out
+          docs
+          !out/**/*.map
           README.md
 

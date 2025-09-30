@@ -61,7 +61,7 @@ diff-conflict-marker --backup "${filename}"
 # Installation
 
 ```
-npm install -G diff-conflict-marker
+npm install -g diff-conflict-marker
 ```
 
 # Usage

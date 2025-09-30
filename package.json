@@ -1,6 +1,6 @@
 {
   "name": "diff-conflict-marker",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "diff-conflict-marker is a command-line tool that reads the saved file state from `.git` and converts the `diff` into a merge-conflict marker format. This enables easier line-by-line inspection and review of changes.",
   "main": "out/index.js",
   "bin": {

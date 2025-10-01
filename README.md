@@ -1,6 +1,6 @@
 **Diff Conflict Marker** is a command-line tool that adds merge-conflict markers to a file based on the `diff` between the file and its version in the Git repository. This simplifies line-by-line inspection and review of changes.
 
-![Screenshot](https://github.com/user-attachments/assets/95fcedd4-dddd-4290-9865-2c09e51a8d7d)
+![Screenshot](https://github.com/benlau/diff-conflict-marker/blob/main/docs/img/screenshot02.jpg?raw=true)
 
 ### Background
 
